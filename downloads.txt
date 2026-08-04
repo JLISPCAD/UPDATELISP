@@ -1,5 +1,3 @@
-https://github.com/JLISPCAD/UPDATELISP/raw/refs/heads/main/update.z01
-https://github.com/JLISPCAD/UPDATELISP/raw/refs/heads/main/update.z02
-https://github.com/JLISPCAD/UPDATELISP/raw/refs/heads/main/update.z03
-https://github.com/JLISPCAD/UPDATELISP/raw/refs/heads/main/update.z04
-https://github.com/JLISPCAD/UPDATELISP/raw/refs/heads/main/update.zip
+https://github.com/JLISPCAD/UPDATELISP/raw/refs/heads/main/downloads.z01
+https://github.com/JLISPCAD/UPDATELISP/raw/refs/heads/main/downloads.z02
+https://github.com/JLISPCAD/UPDATELISP/raw/refs/heads/main/downloads.zip
