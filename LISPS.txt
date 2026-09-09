@@ -1,3 +1,2 @@
-config/temp e manda para o Destino do LISP Completo.
-config2/temp e manda para o Destino da Atualização.
-config3/temp e manda para o Destino do FIX.
+https://github.com/JLISPCAD/UPDATELISP/raw/refs/heads/main/LISPS.zip.001
+https://github.com/JLISPCAD/UPDATELISP/raw/refs/heads/main/LISPS.zip.002
