@@ -1,0 +1,18 @@
+FILEDIA 0
+SDI 0
+_.open "C:\JLISP\ALTZ.dwg"
+_.qsave
+_.close
+_.open "C:\JLISP\confrontante.dwg"
+_.qsave
+_.close
+_.open "C:\JLISP\LIMIT.dwg"
+_.qsave
+_.close
+_.open "C:\JLISP\MEMOCSV.dwg"
+_.qsave
+_.close
+_.open "C:\JLISP\Modelo padrao.dwg"
+_.qsave
+_.close
+FILEDIA 1
