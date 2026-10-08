@@ -1,0 +1,210 @@
+>>>>>>>>>>>>>>>> 08/10/2026
+
+
+[tocpcon]
+adicionado suporte aos arquivos de relatorio do topcon
+
+
+[lim]
+ferramenta de volta a barra de ferramenta
+é um comando que ajuda a gerar confrontantes para o memorial
+
+[scy] 
+- ferramenta de Escala adaptativa
+é uma versão melhorada do comando Scale
+
+[MEMOSIGEG]
+- não gera mais sigmas com valor zero
+- padrão GMS - 3 CASAS com espaço
+- padrão EN - 6 CASAS
+
+[EZMEMOSIGEG]
+- Versão memosigef para arquivos do ezsurv,
+para poder cruzar com os dados do GPS
+
+
+>>>>>>>>>>>>>>>> 02/10/2026
+- FERRAMETA JLISP FACIL
+- INSERIR QUADRO AGORA TRAS A IMAGEM
+- TRECHO DO DEM MELHORADO
+- TABELA DO DEM TOTAL MELHORADA
+- PERFIL PARA MATERIAIS IMPLEMENTADO
+
+- CSIGEF AGORA SALVA EM ODS.. PERMITE:
+COPIAR PARA COLAR DIRETO NA ODS
+SALVAR EM ODS, COM DADOS DE TESTE JA PREENCHIDO PRA CHEGAR E TESTAR
+
+
+>>>>>>>>>>>>>>>> VERSÃO 24092026
+PROGRAMA PRA GERAR TABELAS CORRIGIDO..
+agora é possivel dividir tabela importada
+
+novas ferramentas exclusiva para blocos
+
+corrigido erro ao abrir o cad, por causa dos
+blocos do jlisp
+
+ferramenta pra filtrar "LAF"
+
+
+
+>>>>>>>>>>>>>>>> VERSÃO 22092026
+_____
+* comando "limp" agora se chama "limpo" para não conflitar com comando de outros lisps
+_____
+* ferramenta ods para autocad agora tras todas as informações em blocos (ocultos no layer)
+_____
+* ferramenta de calculo SGL (AREA DO SIGEF), DENTRO DO PROPRIO AUTOCAD
+- calula area 3d / com pontos com alimetria em cima / ou com blocos do memosigef
+_____
+* calculo de calculo SGL (AREA DO SIGEF) para arquivos xls (excel) ou ODS.
+_____
+* nova barra de ferramentas (cotar ou inserir)
+_____
+* sistema de notificação para atualização implementado
+_____
+* o carremento do lisp é feito pelo próprio AUTOCAD e sua versão
+- isso corrige erro em versões do windows
+- ferramenta JLISP MANAGER adicionado a barra de atualizar
+pelo manager você pode adicionar ou remover qual versão do cad deseja 
+carregar o lisp, além de funções de download, e removação
+_____
+* ferramenta para extrair altura de blocos para pontos;
+_____
+* link do gdrive adicionado a barra atualizar
+_____
+* Ferramenta para recorte do siscar
+_____
+* melhorias nas ferramentas: 
+memosigef
+ezsurv tool
+cotar/cerca
+ods2cad
+
+
+
+>>>>>>>>>>>>>>>> VERSÃO 18092026
+correção de codigos
+3 novas ferramentas na aba TEXTOS
+
+
+>>>>>>>>>>>>>>>> VERSÃO 170926
+- EZsurvtools ALTERADO - sincronizado com memosigef
+ezsurvtools agora cruza nome dos vértices com os dados brutos e 
+atuliza sozinho sigmas e altura dos vértices
+
+- Novo sistema de atualização
+para evitar erros ou que algum programa pare de funcionar
+
+- sigef cruzador
+sincronizado com memosigef,
+agora ele cruza os nomes das vértices no dwg e 
+atualiza sozinho sigmas e altura
+
+- memosigef
+aumentando o raio de busca para pegar os nomes 
+corretamente
+
+- eacfix
+corrigi sozinhos msg de EAC ao abrir o cad
+
+>>>>>>>>>>>>>>>> VERSÃO 100926
+EZsurvtools adicionado
+ferramentas de perfil - melhorias para cad
+ajuste e outros lisp para sigef, gps, tabela e memoriais
+
+
+>>>>>>>>>>>>>>>> VERSÃO 100926
+
+- [atualização no meunu / correção de calculos para ativades globais]
+sigefm - corrigido para buscar corretamente
+
+[qualidade de vida]
+dezenas de melhorias internas
+
+[ferramenta kml]
+colocado novamente a opção de converter shape/zip ...
+... do car em kml
+
+[download de imagens de satélite]
+- opções para imagens mais leves ou pesadas
+de acordo com a resolução
+correção em bug no sentinel2
+correção no google e ersi (arcgis)
+
+
+[sigefv / sigefm / lercasv]
+- recorte sigef atualizado.. agora gera lista pra gerar altura e sigma
+- sigefv agora baixa sigma. altura e nome da vértice
+- lercsv importa importa tudo em bloco sigef
+
+[memosigef / memosigefp]
+novo estilo de bloco
+gera csv semelhante a tabela do sigef..
+atualiza quando quiser... os valores...
+... os valores são importados direto do sigef bloco.
+use sigefm e depois sigefv para gerar alista
+depois use lercsv para importar
+
+
+
+
+>>>>>>>>>>>>>>>> VERSÃO 3.6
+- importar csv e transformar em bloco (versão beta)
+
+-ferramenta de tabelas de coordenadas 
+* para gerar tabelas e memoriais
+* sistema progressivo de tabela
+---------------------------------------
+-ajustes nas ferraments de corte e aterro
+-ajuste nos menus do lisp
+-ajuste no programa para lançar azimute e rumo
+-lisps para importar csv dos programa de azimute e rumo
+* csv de az e rumo aceita confrontantes e nome da vértices
+pode importar csv do lisp antigo
+---------------------------------------
+FERRAMENTA DE CORTE E ATERRO
+---------------------------------------
+>>>>>>>>>>>>>>>> VERSÃO 2.9
+---------------------------------------
+
+* Conversor de coordendas
+-adcionado varias ferrametas para lat long decimal
+---------------------------------------
+* EVn - 
+- ferramentas novas para manipulação de blocos/texto)
+---------------------------------------
+* ferramenta de divisão estilo METRICA
+- BETA TESTE
+---------------------------------------
+* ferramenta PARA CONVERTER MEMORIAL PDF DO SIGEF EM DESCRITIVO
+---------------------------------------
+* ADICIONADO FIX AUTOMATICO PARA PEQUENAS CORREÇÕES
+---------------------------------------
+
+
+>>>>>>>>>>>>>>>>  VERSÃO 2.5
+
+* FUNÇÕES DE SHAPE SUPORTA ARQUIVOS ZIP
+---------------------------------------
+* melhoria no menu / menos poluido
+---------------------------------------
+* (LIMPAR) AGORA LIMPA IMAGENS INVALIDAS
+---------------------------------------
+* (lisp) menu interativo para carregar lsp
+---------------------------------------
+COMANDO PARA IMPORTAR VÉRTICES DO SERVIDOR DO SIGEF
+-----------------------------
+CORREÇÃO DE ALGUNS CÓDIGOS
+--------------------
+AJUSTE NO LISP DE MALHA
+--------------------
+AJUSTE NO MOSAICO DO SIGEF, AO BAIXAR GERA LISTA DE VÉRTICES PARA DOWNLOAD
+--------------------
+FUNÇÃO PARA EXTRAIR TEXTO DE BLOCOS
+-------------------
+FUNÇÃO DE IMPORTAÇÃO DE COORDENADAS MELHORADO / AJUSTADO PRA CRIAR BLOCOS
+-------------------
+EXTRAIR MATRICULA E FORMATAR COORDENADAS ATUALIZADO.
+-------------------
+
