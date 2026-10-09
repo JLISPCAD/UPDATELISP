@@ -1,26 +1,32 @@
 >>>>>>>>>>>>>>>> 08/10/2026
 
 
-[tocpcon]
-adicionado suporte aos arquivos de relatorio do topcon
+[tocpcon] - / GPS
+- adicionado: 
+- suporte aos arquivos de relatorio do topcon
+- arquivos para o topcontools
+- importação e criação no modelo Sigef
+- geração de bloco com sistemas para renomear e gerar perimetro
 
 
-[lim]
+[EZMEMOSIGEG] / GPS
+- Versão memosigef para arquivos do ezsurv,
+para poder cruzar com os dados do GPS
+
+[lim] / EVN blocos (etiquetar)
 ferramenta de volta a barra de ferramenta
 é um comando que ajuda a gerar confrontantes para o memorial
 
-[scy] 
+[scy] /Desenho MGP / Croqui / QUADROS e outros
 - ferramenta de Escala adaptativa
 é uma versão melhorada do comando Scale
 
-[MEMOSIGEG]
+[MEMOSIGEG] / Sigef e Incra
 - não gera mais sigmas com valor zero
 - padrão GMS - 3 CASAS com espaço
 - padrão EN - 6 CASAS
 
-[EZMEMOSIGEG]
-- Versão memosigef para arquivos do ezsurv,
-para poder cruzar com os dados do GPS
+
 
 
 >>>>>>>>>>>>>>>> 02/10/2026
