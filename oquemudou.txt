@@ -1,7 +1,7 @@
 >>>>>>>>>>>>>>>> 08/10/2026
 
 
-[tocpcon] - / GPS
+[tocpcon] - / Menu: GPS
 - adicionado: 
 - suporte aos arquivos de relatorio do topcon
 - arquivos para o topcontools
@@ -9,24 +9,26 @@
 - geração de bloco com sistemas para renomear e gerar perimetro
 
 
-[EZMEMOSIGEG] / GPS
+[EZMEMOSIGEG] / Menu: GPS
 - Versão memosigef para arquivos do ezsurv,
 para poder cruzar com os dados do GPS
 
-[lim] / EVN blocos (etiquetar)
+[lim] / Menu: EVN blocos (etiquetar)
 ferramenta de volta a barra de ferramenta
 é um comando que ajuda a gerar confrontantes para o memorial
+- menu layer para ajudar com a busca
 
-[scy] /Desenho MGP / Croqui / QUADROS e outros
+[scy] /Menu: Desenho MGP / Croqui / QUADROS e outros
 - ferramenta de Escala adaptativa
 é uma versão melhorada do comando Scale
 
-[MEMOSIGEG] / Sigef e Incra
+[MEMOSIGEG] / Menu: Sigef e Incra
 - não gera mais sigmas com valor zero
 - padrão GMS - 3 CASAS com espaço
 - padrão EN - 6 CASAS
 
-
+Menu: layer adiconado
+comando relacionados a layer
 
 
 >>>>>>>>>>>>>>>> 02/10/2026
@@ -38,7 +40,7 @@ ferramenta de volta a barra de ferramenta
 
 - CSIGEF AGORA SALVA EM ODS.. PERMITE:
 COPIAR PARA COLAR DIRETO NA ODS
-SALVAR EM ODS, COM DADOS DE TESTE JA PREENCHIDO PRA CHEGAR E TESTAR
+SALVAR EM ODS, COM DADOS DE TESTE JA PREENCHIDO PaRA CHEGAR E TESTAR
 
 
 >>>>>>>>>>>>>>>> VERSÃO 24092026
