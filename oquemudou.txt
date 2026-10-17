@@ -1,3 +1,36 @@
+
+///////
+ATUALIZAÇÃO: 17-10-2026
+
+*** QUALIDADE DE VIDA:
+- ajustes, correções e agrupamento de códigos
+o ajuste corrige muitos erros. falhas e otimiza o lisp e o tamanho total dele.
+- limpeza de arquivos de rotinas que não tinha uso.
+- atualizado bibliotecas para versões mais modernas
+
+*** Curva de nivel
+- programa para gerar Curva de nivel apartir do topodata
+o programa baixa o dem do topodata ou o usuario pode escolher o DEM.
+- ferramenta para cotar nivel da forma como achar melhor
+
+*** Roteiro/memorial
+- memorial adaptado para lotes ou mais de um memorial de uma vez.
+- graus decimais, casas decimais e opções mais otimizadas.
+
+*** Ferramentas de CAR
+uma barra dedicada, exclusivamente para ferramentas em desenvolmimento para o CAR
+- ferramenta para gerar app exatamente como esta no CAR, mesmo poligono.
+a ferramenta gera também nascentes, app, rios e etc... 
+... é possivel escolher o perimetro para fazer recorte...
+a APP ja vem unificada em caso de varias linhas
+
+***** - FERRAMENTA PARA CRIAÇÃO DE SHAPE CAR EM DESENVOLVIMENTO - ****
+
+***  OBERSAVAÇÃO, EM CASO DE FALHA DE LICENÇA.. EXECUTE A FERRAMENTA VERFICIAR LICENÇA PARA CORRIGIR
+
+///////
+
+
 >>>>>>>>>>>>>>>> 08/10/2026
 
 
