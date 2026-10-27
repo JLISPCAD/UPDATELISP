@@ -1,3 +1,26 @@
+///////
+ATUALIZAÇÃO: 27-10-2026
+suporte a cartas do exercito /a versão digitalizada
+o suporte é para cartas offline, todas são coloridas e cobre o estado todo;
+baixe o acervo em jlisp => configurações => abrir gdrive
+a ferramenta esta disponivel em download de imagens de satélite
+
+
+- memorial descritivo 
+* atualizado, agora ele pula as linhas automaticamente ao chegar ao fim (em lote)
+ao gerar lote, ele coloca o texto parte x de x
+* memoriza opções escolhida
+* limpeza no código para evitar erros
+
+- GPS 
+- suporte ao relatório html/htm do gps RTX/RTK 
+também funciona como um importador universal
+- suporte ao relatorio do topcon
+
+- Ferramentas simples
+contarv - conta vértice
+simp - simplifica polilinha ou poligonos complexos
+
 
 ///////
 ATUALIZAÇÃO: 17-10-2026
