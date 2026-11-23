@@ -8,6 +8,9 @@ GOOGLE / ESRI / WORLDVIEW/ LANDSAT5 2008
 
 mudança na forma como as imagens são importadas...
 
+CARTA DO DERSUL corrigida:
+antes havia descolamento, agora carta esta atualizada e georreferenciada...
+
 CARTA DO EXÉRCITO:
 Além do servidor online, todas as cartas offline do MS colorida estão disponivel no Gdrive
 
@@ -17,7 +20,7 @@ Além do servidor online, todas as cartas offline do MS colorida estão disponiv
 ideal para computadores mais lentos
 
 - Lote de ferramentas baseados no comando PLA, assim como calcular e inserir automaticamente 
-baseado em layers
+baseado em layers, além de suportar Region
 
 - otmização na forma como o ODA é chamado, agora todos os programas esperam ele terminar
 
@@ -34,6 +37,8 @@ baseado em layers
 - atualizador , também recebeu mais compatibilidade e removeu o 7zip da programação.
 
 - unificação de programas, em um nucleo geral, para otimizar cache e carregamento ao usar mais de uma vez
+
+- ferramenta funções, ficou no topo, e ferramentas ocultas, agoram aparece no Jlisp...
 
 
 ///////
