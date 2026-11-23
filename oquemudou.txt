@@ -1,10 +1,18 @@
 ///////
 ATUALIZAÇÃO: 23-11-2026
+
+SIGEF MUDOU, AOGRA NÃO EXISTE MAIS mosaico antigo
+porém no Jlisp mantive a ultima versão existente...
+porém O SIGEF, esta atualizando normalmente....
+
+
 - sistema de download de imagens de satélite alterado
 novo servidor, imagens disponiveis: 
 GOOGLE / ESRI / WORLDVIEW/ LANDSAT5 2008
 
 - Novo sistema e servidor para imagens de SENTINEL2
+havia parado de funcionar, agora esta melhor e com mais qualidade;
+adiconado a função para importar a versão tif, CAD CIVIL E MAP
 
 mudança na forma como as imagens são importadas...
 
