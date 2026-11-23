@@ -1,4 +1,42 @@
 ///////
+ATUALIZAÇÃO: 23-11-2026
+- sistema de download de imagens de satélite alterado
+novo servidor, imagens disponiveis: 
+GOOGLE / ESRI / WORLDVIEW/ LANDSAT5 2008
+
+- Novo sistema e servidor para imagens de SENTINEL2
+
+mudança na forma como as imagens são importadas...
+
+CARTA DO EXÉRCITO:
+Além do servidor online, todas as cartas offline do MS colorida estão disponivel no Gdrive
+
+- redução do JLISP, o programa reduziu em 60% o seu tamanho
+
+- programas de CAR, recsiscar e mscar.. agora espera terminar antes de importar
+ideal para computadores mais lentos
+
+- Lote de ferramentas baseados no comando PLA, assim como calcular e inserir automaticamente 
+baseado em layers
+
+- otmização na forma como o ODA é chamado, agora todos os programas esperam ele terminar
+
+- programas que chamam o JLISP.exe agora esperam ele terminar... evitando que o Autocad aja em caso de importação
+
+- Jlisp também ativa definitivamente o LISP antigo, inclusive este agora funcioina em todas as versões do Autocad
+
+- mudança no menu, devido a quantidade massiva de funções... 
+- adicionado o Config, para configurar as versões Autocad para inicilializar com o jlisp
+- adicionado Recarregar MEnu, para atualizar o menu ou corrigir problemas com ele (Rmenu)
+
+- programa de licença, agora usa numero de telefone e é programada de uma forma mais compativel com o windows
+
+- atualizador , também recebeu mais compatibilidade e removeu o 7zip da programação.
+
+- unificação de programas, em um nucleo geral, para otimizar cache e carregamento ao usar mais de uma vez
+
+
+///////
 ATUALIZAÇÃO: 27-10-2026
 suporte a cartas do exercito /a versão digitalizada
 o suporte é para cartas offline, todas são coloridas e cobre o estado todo;
