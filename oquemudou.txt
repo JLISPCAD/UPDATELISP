@@ -5,6 +5,7 @@ SIGEF MUDOU, AOGRA NÃO EXISTE MAIS mosaico antigo
 porém no Jlisp mantive a ultima versão existente...
 porém O SIGEF, esta atualizando normalmente....
 
+- MUDAR MENU ADICIONADO.. MENU UNICO/MENU EM CATEGORIA/ E MENU PERSONALIZADO
 
 - sistema de download de imagens de satélite alterado
 novo servidor, imagens disponiveis: 
