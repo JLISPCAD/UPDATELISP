@@ -11,10 +11,11 @@ novo servidor, imagens disponiveis:
 GOOGLE / ESRI / WORLDVIEW/ LANDSAT5 2008
 
 - Novo sistema e servidor para imagens de SENTINEL2
-havia parado de funcionar, agora esta melhor e com mais qualidade;
+havia parado de funcionar, agora esta normal;
 adiconado a função para importar a versão tif, CAD CIVIL E MAP
 
 mudança na forma como as imagens são importadas...
+Raster para fuso, converte tiff, tif em imagem UTM
 
 CARTA DO DERSUL corrigida:
 antes havia descolamento, agora carta esta atualizada e georreferenciada...
